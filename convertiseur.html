@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="convertiseur.css">
+</head>
+<body>
+    <main>
+    <div class="title">
+                <button type="button"> bienvenue</button>
+        <h1>convertiseur</h1>
+    </div>
+    <div class="description">
+    <p>Ce programme vous permetra de convertie vos sommes d argent d'une  mornaie a une autres </p>
+    </div>
+    <div class="rad">
+        <h3>votre mornaie</h3>
+        <label for="radio1"> FCFA</label>
+        <input type="radio"  name="monais" class="radioF1" checked required>
+        <label for="radio2"> EURO</label>
+        <input type="radio"  name="monais"  class="radioU1"checked required>
+                
+    
+    </div>
+    
+    <div class="rad">
+         <h3>Convertir en</h3>
+        <label for="radio1"> FCFA</label>
+        <input type="radio"  name="monaisc" class="radioF2" checked required>
+        <label for="radio2"> EURO</label>
+        <input type="radio"  name="monaisc" class="radioU2" checked required>
+                
+    </div>
+    <div class="inp">
+        <h2>Entrer la somme</h2>
+        <form id="for">
+        <input type="text" required class="inpt">
+        <button type="submit">Convertir</button>
+        </form>
+    </div>
+    <div class="resultat">
+        
+    </div>
+    </main>
+    <footer>
+        &copy k10_dev
+    </footer>
+    <script src="convertiseur.js"></script>
+</body>
+</html>
